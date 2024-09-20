@@ -1,0 +1,88 @@
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+  background-color: rgb(246, 193, 94);
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+  margin: 0;
+}
+
+.container{
+  background-color: #fff;
+  width: 1000px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.section1{
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom:1px solid rgb(202, 202, 202);
+}
+
+.menu-icon{
+  font-size: 30px;
+}
+
+.search-icon{
+  font-size: 26px;
+}
+
+.movie-web-name{
+  font-size: 24px;
+}
+
+.UI {
+  background-color: orangered;
+  padding: 5px;
+  border-radius: 20px;
+  color: white;
+}
+
+.title {
+  font-size: 22px;
+}
+
+.list-movie{
+  padding: 0 30px;
+}
+
+.option img{
+  width: 220px;
+  height: 300px;
+}
+
+.name-movie{
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.time{
+  margin-top: 5px;
+}
+
+:where(.css-dev-only-do-not-override-qnu6hi).ant-carousel .slick-prev::after {
+  width: 25px;
+  height: 25px;
+  color: black;
+  position: absolute;
+  top: -50px;
+  left: -25px;
+}
+
+:where(.css-dev-only-do-not-override-qnu6hi).ant-carousel .slick-next::after{
+  width: 25px;
+  height: 25px;
+  color: black;
+  position: absolute;
+  top: -50px;
+  right: -25px;
+}
